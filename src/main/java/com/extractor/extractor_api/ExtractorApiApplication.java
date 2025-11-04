@@ -3,7 +3,7 @@ package com.extractor.extractor_api;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.extractor.extractor_api")
 public class ExtractorApiApplication {
 
 	public static void main(String[] args) {
